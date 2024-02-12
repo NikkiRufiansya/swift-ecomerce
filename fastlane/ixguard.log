@@ -1,0 +1,447 @@
+[info] Using random seed: 1224136698
+[info] Guardsquare iXGuard 4.9.7 stable (4.9.0- f9bd5d93d0f0) 
+[info] Copyright (c) Guardsquare 2024
+[debug] Logging level set to debug for console, debug for log file
+[debug] Reading license: '/Users/rmltech/Documents/GuardSquare/ixguard-license.txt'
+[info] Using Xcode 15.2
+[info] Reading '/Users/rmltech/Documents/ProjectIOS/E-CommerceApp/ECommerceApp.ipa'
+[info] IPA Driver
+[info] Reading input...
+[debug] Command: ditto -x -k --noqtn --noacl /Users/rmltech/Documents/ProjectIOS/E-CommerceApp/ECommerceApp.ipa /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/
+[debug] Command: /usr/bin/codesign -dv --verbose=2 /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/ECommerceApp
+[debug] Command: /usr/bin/codesign -dv --verbose=2 /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/ECommerceApp
+[debug] Command: /usr/libexec/PlistBuddy -c Print CFBundleIdentifier /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print CFBundleShortVersionString /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print CFBundleDisplayName /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print CFBundleIcons:CFBundlePrimaryIcon /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print UILaunchImages:0:UILaunchImageName /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print TVTopShelfImage:TVTopShelfPrimaryImage /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print TVTopShelfImage:TVTopShelfPrimaryImageWide /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print :UIApplicationSceneManifest:UISceneConfigurations:UIWindowSceneSessionRoleApplication:0:UISceneClassName /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print :UIApplicationSceneManifest:UISceneConfigurations:UIWindowSceneSessionRoleApplication:0:UISceneDelegateClassName /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print :UIApplicationSceneManifest:UISceneConfigurations:UIWindowSceneSessionRoleApplication:1:UISceneDelegateClassName /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print :NSPrincipalClass /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print :NSExtension:NSExtensionPrincipalClass /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print :WKExtensionDelegateClassName /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print :CLKComplicationPrincipalClass /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Info.plist
+[debug] Command: /usr/bin/codesign -dv --verbose=2 /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework/iXGCallbackBridge
+[debug] Command: /usr/bin/codesign -dv --verbose=2 /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework/iXGCallbackBridge
+[debug] Command: /usr/libexec/PlistBuddy -c Print CFBundleIdentifier /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print CFBundleShortVersionString /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print CFBundleDisplayName /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print CFBundleIcons:CFBundlePrimaryIcon /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print UILaunchImages:0:UILaunchImageName /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print TVTopShelfImage:TVTopShelfPrimaryImage /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print TVTopShelfImage:TVTopShelfPrimaryImageWide /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print :UIApplicationSceneManifest:UISceneConfigurations:UIWindowSceneSessionRoleApplication:0:UISceneClassName /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print :UIApplicationSceneManifest:UISceneConfigurations:UIWindowSceneSessionRoleApplication:0:UISceneDelegateClassName /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print :NSPrincipalClass /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print :NSExtension:NSExtensionPrincipalClass /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print :WKExtensionDelegateClassName /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print :CLKComplicationPrincipalClass /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework/Info.plist
+[debug] Command: xcrun --sdk iphoneos assetutil -I /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Assets.car
+[debug] Command: /usr/libexec/PlistBuddy -c Print CFBundleExecutable /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/SDWebImage_SDWebImage.bundle/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print CFBundleExecutable /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print CFBundleExecutable /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print MinimumOSVersion /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Info.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print LSMinimumSystemVersion /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Info.plist
+[debug] Normalizing deployment target of: '"ECommerceApp"' to: 15.1.0
+[debug] Command: /usr/libexec/PlistBuddy -c Set MinimumOSVersion 15.1 /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Info.plist
+[debug] Command: xcrun codesign --display --extract-certificates=/var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/certificates/ECommerceApp/machocert /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/ECommerceApp
+[debug] Command: /usr/bin/openssl x509 -noout -inform DER -fingerprint -sha1 -in /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/certificates/ECommerceApp/machocert0
+[debug] Command: xcrun codesign -d --entitlements :/var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app
+[debug] Command: xcrun codesign --display --extract-certificates=/var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/certificates/ECommerceApp/machocert /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app
+[debug] Command: /usr/bin/openssl x509 -noout -inform DER -fingerprint -sha1 -in /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/certificates/ECommerceApp/machocert0
+[debug] Command: /usr/bin/codesign -dv --verbose=2 /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app
+[debug] Command: /usr/libexec/PlistBuddy -c Print :application-identifier /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Retrieved signing identity 50158E7092D4136D880B115C1B7B52ADDEB4FBD0 from ECommerceApp
+[debug] Command: /usr/bin/security find-certificate -Z -p -a
+[debug] Command: /usr/bin/openssl x509 -noout -inform PEM -subject -in /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/certificate.pem
+[debug] Command: /usr/bin/security cms -D -i /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/embedded.mobileprovision
+[debug] Command: /usr/libexec/PlistBuddy -c Print Entitlements:get-task-allow /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/provisioning.plist
+[debug] Command: /usr/bin/security cms -D -i /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/embedded.mobileprovision
+[debug] Command: /usr/libexec/PlistBuddy -c Print :DeveloperCertificates:0 /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/provisioning.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print :DeveloperCertificates:1 /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/provisioning.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Print :DeveloperCertificates:2 /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/provisioning.plist
+[debug] Command: /usr/bin/openssl x509 -noout -inform DER -fingerprint -sha1 -in /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/certificate.der
+[debug] Command: /usr/bin/openssl x509 -noout -inform DER -subject -in /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/certificate.der
+[debug] Command: /usr/bin/openssl x509 -noout -inform DER -fingerprint -sha1 -in /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/certificate.1.der
+[debug] Command: /usr/bin/openssl x509 -noout -inform DER -subject -in /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/certificate.1.der
+[debug] Bundle display name not specified in Info.plist
+[info] Verifying configuration file
+[info] Configured app distribution target: App Store
+[info] Restoring Bitcode Symbols
+[debug] Using default denylist for framework with name 'Other'
+[debug] Using default denylist for framework with name 'Other'
+[debug] Using default denylist for framework with name 'Other'
+[info] Early Materialize Modules
+[info] Loading Prefabs
+[info] Materialize Modules
+[info] Verifying configuration file
+[info] Checking Privacy Manifest
+[info] Your privacy manifest declarations have been updated for type NSPrivacyAccessedAPICategoryFileTimestamp and reason C617.1.
+[info] Parsing Strings
+[info] Parsing Objective-C Metadata
+[debug] Loading SDK framework "Others.yml"
+[debug] Loading SDK framework "os.yml"
+[debug] Loading SDK framework "os_workgroup.yml"
+[debug] Loading SDK framework "os_object.yml"
+[debug] Loading SDK framework "Swift.yml"
+[debug] Loading SDK framework "ObjectiveC.yml"
+[debug] Loading SDK framework "Darwin.yml"
+[debug] Loading SDK framework "_Builtin_stddef_max_align_t.yml"
+[debug] Loading SDK framework "SwiftOverlayShims.yml"
+[debug] Loading SDK framework "SwiftShims.yml"
+[debug] Loading SDK framework "MachO.yml"
+[debug] Loading SDK framework "UniformTypeIdentifiers.yml"
+[debug] Loading SDK framework "Foundation.yml"
+[debug] Loading SDK framework "ptrauth.yml"
+[debug] Loading SDK framework "Security.yml"
+[debug] Loading SDK framework "Dispatch.yml"
+[debug] Loading SDK framework "Combine.yml"
+[debug] Loading SDK framework "CoreFoundation.yml"
+[debug] Loading SDK framework "CFNetwork.yml"
+[debug] Loading SDK framework "QuartzCore.yml"
+[debug] Loading SDK framework "OpenGLES.yml"
+[debug] Loading SDK framework "IOSurface.yml"
+[debug] Loading SDK framework "Metal.yml"
+[debug] Loading SDK framework "CoreVideo.yml"
+[debug] Loading SDK framework "CoreGraphics.yml"
+[debug] Loading SDK framework "OSLog.yml"
+[debug] Loading SDK framework "FileProvider.yml"
+[debug] Loading SDK framework "DataDetection.yml"
+[debug] Loading SDK framework "CoreImage.yml"
+[debug] Loading SDK framework "ImageIO.yml"
+[debug] Loading SDK framework "UIKit.yml"
+[debug] Loading SDK framework "UserNotifications.yml"
+[debug] Loading SDK framework "Symbols.yml"
+[debug] Loading SDK framework "CoreText.yml"
+[debug] Loading SDK framework "CoreServices.yml"
+[debug] Loading SDK framework "Accelerate.yml"
+[debug] Loading SDK framework "simd.yml"
+[debug] Loading SDK framework "_Builtin_intrinsics.yml"
+[debug] Loading SDK framework "MobileCoreServices.yml"
+[debug] Failed to resolve SDK data file: 'No SDK data file found for iXGCallbackBridge'
+[debug] Loading SDK framework "CoreData.yml"
+[debug] Loading SDK framework "CloudKit.yml"
+[debug] Loading SDK framework "CoreTransferable.yml"
+[debug] Loading SDK framework "CoreLocation.yml"
+[debug] Loading SDK framework "AVFoundation.yml"
+[debug] Loading SDK framework "MediaToolbox.yml"
+[debug] Loading SDK framework "CoreMedia.yml"
+[debug] Loading SDK framework "CoreAudioTypes.yml"
+[debug] Loading SDK framework "CoreAudio.yml"
+[debug] Loading SDK framework "AudioToolbox.yml"
+[debug] Loading SDK framework "CoreMIDI.yml"
+[debug] Loading SDK framework "AVFAudio.yml"
+[debug] Loading SDK framework "Accessibility.yml"
+[debug] Loading SDK framework "SwiftUI.yml"
+[debug] Loading SDK framework "StoreKit.yml"
+[debug] Loading SDK framework "DeveloperToolsSupport.yml"
+[debug] Loading SDK framework "CryptoKit.yml"
+[debug] Loading SDK framework "LocalAuthentication.yml"
+[debug] Loading SDK framework "Observation.yml"
+[debug] Loading SDK framework "AuthenticationServices.yml"
+[info] Building Connections
+[info] Initializing Filters
+[debug] Using default denylist for framework with name 'Other'
+[debug] Using default denylist for framework with name 'UIKit'
+[debug] Using 'AppIcon' as icon name for the resource encryption denylist. Unable to retrieve app icon files from Info.plist and Assets.car.
+[debug] [MachODependencyGraph] Sorted dependency graph: 
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftCore.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftMetal.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftDataDetection.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftQuartzCore.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftCoreImage.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftDarwin.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftDispatch.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libSystem.B.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libc++.1.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libobjc.A.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftCoreFoundation.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftFileProvider.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftOSLog.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftObjectiveC.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftUniformTypeIdentifiers.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftos.tbd"
+[debug] [Mach-O  Node] "/var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/ECommerceApp"
+[debug] Skipping synthetic callbacks generation for 'Tripwire'
+[debug] Skipping synthetic callbacks generation for 'AntiRebinding'
+[debug] Skipping synthetic callbacks generation for 'AntiTracing'
+[debug] Skipping synthetic callbacks generation for 'FunctionChecksumming'
+[debug] Skipping synthetic callbacks generation for 'Emulator'
+[debug] Skipping synthetic callbacks generation for 'Debugger'
+[debug] Skipping synthetic callbacks generation for 'Repackaging'
+[debug] Skipping synthetic callbacks generation for 'SystemLibrary'
+[debug] Found 'Jailbreak' callback 'callback' for architecture 'arm64'
+[debug] Skipping synthetic callbacks generation for 'Jailbreak'
+[debug] Skipping synthetic callbacks generation for 'DylibCheck'
+[debug] Skipping synthetic callbacks generation for 'Swizzling'
+[debug] Skipping synthetic callbacks generation for 'IAP'
+[debug] Skipping synthetic callbacks generation for 'TouchSimulation'
+[debug] Command: xcrun --sdk iphoneos assetutil -I /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Assets.car
+[debug] Command: xcrun --sdk iphoneos assetutil /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/RMLDemoProtected.redirected_ae_file --preserve-assets-named RemoveAllAssets
+[debug] Command: xcrun --sdk iphoneos assetutil -I /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/RMLDemoProtected.redirected_ae_file
+[info] Applying Filters
+[info] Swizzing Configuration
+[info] Executing Passes
+[debug] [opt-mode] inactive.
+[debug] Adding pass 'Propagate function argument attributes'
+[debug] Adding pass 'Synthetic entry functions'
+[debug] Adding pass 'Trampolining callbacks'
+[debug] Adding pass 'Method Call Lowering Analysis'
+[debug] Adding pass 'Method Call Lowering Transformation'
+[debug] Adding pass 'Strip Swift Metadata'
+[debug] Adding pass 'Obfuscation Metadata'
+[debug] Adding pass 'Update String Lengths'
+[debug] Adding pass 'Merge Functions'
+[debug] Adding pass 'Prologue Integrity'
+[debug] Adding pass 'Asset decryption setup'
+[debug] Adding pass 'Symbol Table Analysis'
+[debug] Adding pass 'Symbol Table Integrity'
+[debug] Adding pass 'Code Tracing Detection'
+[debug] Adding pass 'App/Environment Integrity Detection'
+[debug] Adding pass 'System Library Integrity'
+[debug] Adding pass 'IAP Avoidance'
+[debug] Adding pass 'Touch Simulation'
+[debug] Adding pass 'Function Duplication'
+[debug] Adding pass 'Callback Accessor Duplication'
+[debug] Adding pass 'Function Name Randomization'
+[debug] Adding pass 'Function Checksumming'
+[debug] Adding pass 'Callback Context'
+[debug] Adding pass 'Array indirection'
+[debug] Adding pass 'Dlsymify'
+[debug] Adding pass 'String Analysis'
+[debug] Adding pass 'String Bucketing'
+[debug] Adding pass 'String Encryption'
+[debug] Adding pass 'String Integrity'
+[debug] Adding pass 'Memory predicates'
+[debug] Adding pass 'Global indirection'
+[debug] Adding pass 'Exit Points'
+[debug] Adding pass 'Simplify CFG'
+[debug] Adding pass 'Split Basic Blocks'
+[debug] Adding pass 'Phony Control Flow Obfuscation'
+[debug] Adding pass 'Indististinguishable Predicates'
+[debug] Adding pass 'Opaque Predicates'
+[debug] Adding pass 'Flatten Control Flow Obfuscation'
+[debug] Adding pass 'Diffusion'
+[debug] Adding pass 'Constant Obfuscation'
+[debug] Adding pass 'Arithmetic Obfuscation'
+[debug] Adding pass 'Force Library Load'
+[debug] Adding pass 'Reorder'
+[debug] Adding pass 'Clean Synthetic entry functions'
+[debug] Adding pass 'Aggregate Debug Information'
+[debug] Adding pass 'Fix up debug information of function calls'
+[debug] Adding pass 'Fix up tail calls'
+[info] Processing symbols
+[info] Recompiling
+[debug] [MachODependencyGraph] Sorted dependency graph: 
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftCore.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftMetal.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftDataDetection.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftQuartzCore.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftCoreImage.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftDarwin.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftDispatch.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libSystem.B.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libc++.1.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libobjc.A.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftCoreFoundation.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftFileProvider.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftOSLog.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftObjectiveC.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftUniformTypeIdentifiers.tbd"
+[debug] [LibInfo Node] "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftos.tbd"
+[debug] [Mach-O  Node] "/var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/ECommerceApp"
+[info] Not embedding bitcode because it is disabled in the configuration
+[debug] Compiling in order: 
+[debug] - ECommerceApp
+[debug] Compiling in 8 threads
+[debug] Command: xcrun swiftc -frontend /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/arm64/obfuscated.3.bc -emit-object -disable-llvm-optzns -target arm64-apple-ios15.1.0 -O -frontend-parseable-output -target-sdk-version 17.2 -target-sdk-name iphoneos17.2 -o /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/arm64/RMLDemoProtected.o
+[debug] Command: xcrun clang -cc1 -x ir /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/arm64/obfuscated.2.bc -cc1 -triple arm64-apple-ios15.1.0 -emit-obj --mrelax-relocations -disable-llvm-passes -fobjc-msgsend-selector-stubs -target-sdk-version=17.2 -fvisibility-inlines-hidden-static-local-var -ffp-contract=on -fno-rounding-math -target-abi darwinpcs -Os -o /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/arm64/RMLDemoProtected.3.o
+[debug] Command: xcrun swiftc -frontend /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/arm64/obfuscated.1.bc -emit-object -disable-llvm-optzns -target arm64-apple-ios15.1.0 -O -frontend-parseable-output -target-sdk-version 17.2 -target-sdk-name iphoneos17.2 -o /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/arm64/RMLDemoProtected.2.o
+[debug] Command: xcrun clang -cc1 -x ir /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/arm64/obfuscated.bc -cc1 -triple arm64-apple-ios15.1.0 -emit-obj --mrelax-relocations -disable-llvm-passes -faligned-alloc-unavailable -fobjc-msgsend-selector-stubs -target-sdk-version=17.0 -fvisibility-inlines-hidden-static-local-var -ffp-contract=on -fno-rounding-math -target-abi darwinpcs -O2 -o /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/arm64/RMLDemoProtected.1.o
+[info] Creating Mach-O: ECommerceApp
+[debug] Command: xcrun ld -arch arm64 -filelist /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/arm64/filelist.txt /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libobjc.A.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libSystem.B.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libc++.1.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftCore.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftCoreFoundation.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftCoreImage.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftDarwin.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftDataDetection.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftDispatch.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftFileProvider.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftMetal.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftOSLog.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftObjectiveC.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftQuartzCore.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftUniformTypeIdentifiers.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftos.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Metal.framework/Metal.tbd -r -platform_version ios 15.1.0 17.2.0 -no_objc_category_merging -ignore_auto_link -allow_dead_duplicates -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -ld_classic -o /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/arm64/linked.RMLDemoProtected.o
+[debug] Command: xcrun ld -arch arm64 -filelist /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/arm64/filelist.1.txt /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libobjc.A.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libSystem.B.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libc++.1.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftCore.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftCoreFoundation.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftCoreImage.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftDarwin.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftDataDetection.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftDispatch.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftFileProvider.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftMetal.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftOSLog.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftObjectiveC.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftQuartzCore.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftUniformTypeIdentifiers.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftos.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Metal.framework/Metal.tbd -r -platform_version ios 15.1.0 17.2.0 -no_objc_category_merging -ignore_auto_link -allow_dead_duplicates -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -ld_classic -o /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/arm64/linked.RMLDemoProtected.1.o
+[debug] Command: xcrun ld -arch arm64 -filelist /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/arm64/filelist.2.txt /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libobjc.A.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libSystem.B.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libc++.1.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftCore.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftCoreFoundation.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftCoreImage.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftDarwin.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftDataDetection.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftDispatch.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftFileProvider.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftMetal.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftOSLog.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftObjectiveC.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftQuartzCore.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftUniformTypeIdentifiers.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/swift/libswiftos.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Metal.framework/Metal.tbd /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.ios.a -execute -platform_version ios 15.1.0 17.2.0 -e _main -rpath @executable_path/Frameworks -executable_path /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/ECommerceApp -dead_strip -ignore_auto_link -allow_dead_duplicates -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -ld_classic -o /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/arm64/linked.RMLDemoProtected.2.o
+[debug] Compiling unused framework: iXGCallbackBridge.framework
+[info] Not embedding bitcode because it is disabled in the configuration
+[debug] Compiling in order: 
+[debug] - iXGCallbackBridge
+[debug] Compiling in 8 threads
+[debug] Command: xcrun clang -cc1 -x ir /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/arm64/obfuscated.4.bc -cc1 -triple arm64-apple-ios15.1.0 -emit-obj --mrelax-relocations -disable-llvm-passes -fobjc-msgsend-selector-stubs -target-sdk-version=17.2 -fvisibility-inlines-hidden-static-local-var -ffp-contract=on -fno-rounding-math -target-abi darwinpcs -o /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/arm64/RMLDemoProtected.4.o
+[info] Creating Mach-O: iXGCallbackBridge
+[debug] Command: xcrun ld -arch arm64 -filelist /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/arm64/filelist.3.txt /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libSystem.B.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Metal.framework/Metal.tbd /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.ios.a -dylib -compatibility_version 0.0.0 -install_name /Users/rmltech/Library/Developer/Xcode/DerivedData/ECommerceApp-dqjvejcowmzagfgeejdilwmvmxrk/Build/Intermediates.noindex/ArchiveIntermediates/ECommerceApp/InstallationBuildProductsLocation/Applications/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework/iXGCallbackBridge -platform_version ios 15.1 17.2 -ignore_auto_link -allow_dead_duplicates -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -ld_classic -o /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/arm64/linked.RMLDemoProtected.3.o
+[debug] Command: /usr/bin/codesign -dv --verbose=2 /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/ECommerceApp
+[debug] Command: /usr/bin/codesign -dv --verbose=2 /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/ECommerceApp
+[debug] Command: /usr/bin/codesign -dv --verbose=2 /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/ECommerceApp
+[debug] Command: /usr/bin/codesign -dv --verbose=2 /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/ECommerceApp
+[info] Writing IPA
+[debug] Command: xcrun dsymutil /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/ECommerceApp -o /Users/rmltech/Documents/ProjectIOS/E-CommerceApp/fastlane/dSYMs/ECommerceApp.app.dSYM
+[debug] Command: /Library/iXGuard/bin/ixguard-dsymutil --mapping=/Users/rmltech/Documents/ProjectIOS/E-CommerceApp/fastlane/mapping.yml -f -o /Users/rmltech/Documents/ProjectIOS/E-CommerceApp/fastlane/dSYMs/ /Users/rmltech/Documents/ProjectIOS/E-CommerceApp/fastlane/dSYMs/ --debug-data=/Users/rmltech/Documents/ProjectIOS/E-CommerceApp/fastlane
+[info] Processing app: ECommerceApp.app
+[debug] Processing Framework: iXGCallbackBridge.framework
+[debug] Command: xcrun strip -Sx /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework/iXGCallbackBridge
+[debug] Command: xcrun strip /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/ECommerceApp
+[info] Development provisioning profile will be used for signing.
+[debug] Command: /usr/bin/security find-identity -v -p codesigning
+[info] Patching entitlements '/var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt' with provisioning profile '"/var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/embedded.mobileprovision"'
+[debug] Command: /usr/bin/security cms -D -i /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/embedded.mobileprovision
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print Entitlements /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/provisioning.plist
+[debug] Command: /usr/libexec/PlistBuddy -c Delete keychain-access-groups /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/RMLDemoProtected.entitlement
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.developer.associated-domains /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.developer.healthkit /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.developer.healthkit.access /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.developer.homekit /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.developer.icloud-container-environment /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.developer.icloud-container-identifiers /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.developer.icloud-services /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.developer.in-app-payments /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.developer.networking.vpn.api /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.developer.networking.networkextension /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.developer.networking.HotspotConfiguration /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.developer.networking.multipath /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.developer.nfc.readersession.formats /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.developer.pass-type-identifiers /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.developer.siri /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.developer.ubiquity-container-identifiers /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.developer.ubiquity-kvstore-identifier /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.external-accessory.wireless-configuration /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.developer.default-data-protection /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print com.apple.security.application-groups /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print inter-app-audio /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print keychain-access-groups /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -x -c Print application-identifier /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt
+[debug] Command: /usr/libexec/PlistBuddy -c Delete application-identifier /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/RMLDemoProtected.entitlement
+[debug] Command: /usr/bin/plutil -insert application-identifier -xml <string>F926M23CY4.com.rmldemo.guardsquare</string> /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/RMLDemoProtected.entitlement
+[debug] Command: /usr/bin/codesign --force --sign 50158E7092D4136D880B115C1B7B52ADDEB4FBD0 --preserve-metadata=identifier,entitlements,flags --timestamp=none /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework
+[debug] Command: /usr/bin/codesign --force --sign 50158E7092D4136D880B115C1B7B52ADDEB4FBD0 --entitlements /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/app_entitlements.txt --timestamp=none /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app
+[debug] Command: ditto -V -c -k --norsrc /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/ /private/var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/obfapps/RMLDemoProtected.ipa
+[info] iXGuard successfully created /private/var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/obfapps/RMLDemoProtected.ipa
+[debug] Command: /usr/bin/codesign -dv --verbose=2 /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/ECommerceApp
+[debug] Command: /usr/bin/codesign -dv --verbose=2 /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/ECommerceApp
+[info] 
+
+STATISTICS:
+-----------
+
+Name Obfuscation: 
+-----------------
+  - Symbols hidden: 1326
+  - Symbols obfuscated: 6553
+  - Original function name: 440
+  - User defined entities available: 3808
+  - Entities renamed: 1711
+  - Entities skipped because they are part of the SDK: 83451
+  - Entities skipped because of denylist: 75
+
+Arithmetic Obfuscation: 
+-----------------------
+  - Functions skipped because they were not allowlisted: 1725
+  - Functions allowlisted, but without replacements: 339
+  - Substituted original arithmetic instructions: 47907
+  - Constants substituted: 36980
+
+Control Flow Obfuscation: 
+-------------------------
+  - Partially obfuscated functions: 2810
+  - Arrayized calls to function: 10816
+  - Arrayized calls in function: 10816
+  - Dlsymified calls to this function: 2
+  - Dlsymified calls in this function: 2
+  - Dlsymified functions in global variables: 176
+  - Skipped due to not linked: 28
+  - Skipped due to not being externally linked: 6101
+  - Branches diffused: 1058
+  - Functions not obfuscated because they were not allowlisted: 4833
+  - Indistinguishable real predicates: 475
+  - Indistinguishable opaque predicates: 1412
+  - Function locations reordered: 6985
+  - Global locations reordered: 20992
+  - Basic blocks reordered: 3198
+  - Basic blocks selected: 1054
+  - Functions duplicated: 666
+  - Call sites updated: 814
+
+Data Obfuscation: 
+-----------------
+  - Encrypted strings: 282
+  - Integrity-protected strings: 276
+
+Integrity: 
+----------
+  - Total checks inserted: 510
+  - Symbols protected from rebinding: 514
+  - Calls to symbols protected: 1377
+  - Symbols skipped due to denylist: 7
+  - Setup Context Global Variable Name: 1
+  - Check Context Global Variable Name: 1
+  - Setup table size: 581
+  - Symbol checks skipped due to denylist: 1
+  - Guarded functions: 2324
+  - Method calls devirtualised: 528
+  - System library integrity checks inserted: 1273
+  - Symbols skipped due to denylist: 173
+  - Symbol checks skipped due to denylist: 248
+  - Total number of anti-tracing checks inserted: 53
+  - Total number of only-entry anti-tracing checks inserted: 7
+  - Functions protected: 285
+  - Function verifiers inserted: 325
+
+Resource Encryption: 
+--------------------
+  - Encrypted resources (no direct access): 1
+  - Resources skipped because they were not allowlisted: 7
+
+
+
+
+[warning] ============== General ==============
+[warning] Unused framework iXGCallbackBridge.framework found. If the framework is used you can use build: additional-framework option to specify this. Refer to our manual for more information. (in_unused_framework:1653831633)
+[warning] Signing not configured. Application will be signed with embedded signing information. If you do not want the application to be signed, disable it in the export configuration. (sig_no_config:1215148582)
+[warning] 'Arithmetic Obfuscation': enabled without any allowlist (cfg_no_allowlist:3907868199)
+[warning] 'Control Flow Obfuscation: Logic': enabled without any allowlist (cfg_no_allowlist:477970872)
+[warning] 'Data Obfuscation': enabled with an empty allowlist. (cfg_empty_allowlist:1698134641)
+[warning] Option 'continue-on-callback' in 'Emulator Detection' set to 'true' but no callback was provided. Option will be ignored! (cfg_no_callback:1443886038)
+[warning] 'Resource Encryption': enabled with an empty allowlist. (cfg_empty_allowlist:1110329309)
+[warning] Jailbreak detection with callback and System library integrity are enabled. Please beware that System Library Integrity can trigger on some jailbroken devices. Please refer to the manual for more information. (cfg_sys_lib_jb_callback:1970965587)
+[warning] Your application is not ready for distribution because you have selected 'App Store' as distribution target but are signing for 'Development'. As long as your are still testing iXGuard configuration, you can ignore this message. (sig_distr_not_ready:167574825)
+[warning] iXGuard has detected missing information in your privacy manifest to include declarations required for use of Apple sensitive APIs. Learn more here: https://platform.guardsquare.com/manual/ixguard/stable/latest/in-depth/apple-privacy-manifest.html (privacy_manifest_auto_updated:3979533926)
+[warning] Found an unused framework: '/var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB/ipaextract/Payload/ECommerceApp.app/Frameworks/iXGCallbackBridge.framework' (app_unused_framework:83670610)
+[warning] ========== Binary name: ECommerceApp ==========
+[warning] Provided input was built for older Xcode version 'Xcode 14.3' (vers_older_xcode:72161974) [x204] 
+[warning] Failed to parse reflection call 'setValue:forKey:' (prs_reflection:1973361838) [x8] [arm64]
+					    In File:SDWebImage/Core/SDWebImageDownloader.m Line:171 Col:5
+					    In File:SDWebImage/Core/UIImage+Transform.m Line:459 Col:13
+					    In File:SDWebImage/Core/UIImage+Transform.m Line:460 Col:13
+					    In File:SDWebImage/Core/UIImage+Transform.m Line:552 Col:9
+					    In File:SDWebImage/Core/UIImage+Transform.m Line:553 Col:9
+					    In File:SDWebImage/Core/UIImage+Transform.m Line:766 Col:9
+					    In File:SDWebImage/Core/UIImage+Transform.m Line:767 Col:9
+					    In File:SDWebImage/Core/UIImage+Transform.m Line:873 Col:5
+[warning] ========== Binary name: iXGCallbackBridge ==========
+[warning] Provided input was built for older Xcode version 'Xcode 14.3' (vers_older_xcode:2073790332)
+[debug] Invoking reporter
+[info] Protection report available at "/Users/rmltech/Documents/ProjectIOS/E-CommerceApp/fastlane/protectionreport.html"
+[info] Cleaning up...
+[debug] [TemporaryDir] Removing temporary directory: /var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB
+[debug] Removed temp directory: "/var/folders/mm/mqpmqjgd5dscjhns20mg6by00000gn/T/ixguard-RMLDemoProtected-nm0AiB"

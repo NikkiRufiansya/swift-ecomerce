@@ -1,0 +1,178 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+  before_all do
+    ENV["SLACK_URL"]="https://hooks.slack.com/services/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"
+    ENV["APPKNOX_ACCESS_TOKEN"] = "156e23bde8e3506cc5fd1bc8ae49b9d2a2d689ab"
+    ENV["FIREBASE_TOKEN"]="1//0gLZmqVWF5HBcCgYIARAAGBASNwF-L9IrNdXvGMLh-DhLTb_BNzETh3yUCj8V3ZClJa1nBq7SGfTSdISk2jGlH6sQNcKRw9mCojI"
+    # ENV["firebase_cli_token"]="1//0gLZmqVWF5HBcCgYIARAAGBASNwF-L9IrNdXvGMLh-DhLTb_BNzETh3yUCj8V3ZClJa1nBq7SGfTSdISk2jGlH6sQNcKRw9mCojI"
+    ENV["testers"]="nikkirufiansya2@gmail.com, technicalrml2023@gmail.com,technical@rml.co.id,rizkyprad.putra@gmail.com"
+    ENV["app"]="1:954269003292:ios:65c59efb471d7c916239d9"
+    ENV["FASTLANE_USER"]="technical@rml.co.id"
+    ENV["FASTLANE_PASSWORD"]="Raditya@123"
+    ENV["SPACESHIP_2FA_SMS_DEFAULT_PHONE_NUMBER"]="+62 858 10456833"
+    
+  end
+
+
+platform :ios do
+
+  # Start Build IPA AdHoc
+  # Build IPA
+  lane :buildipaadhoc do
+    remove()
+    adhoc()
+    uploadtofirebaseappdistribution()
+    appknox()
+  end
+
+  lane :jenkinsadhoc do
+    # remove()
+    adhoc()
+  end
+
+  # AdHoc
+  def adhoc
+    begin
+      increment_build_number
+      build_app(
+        scheme: "RMLDEMO",
+        clean: true,
+        include_bitcode: false,
+        toolchain: "com.guardsquare.ixguard",
+        configuration: "Release",
+        export_method: "ad-hoc",
+        export_options: {
+          method: "ad-hoc",
+          compileBitcode: false,
+          architecture: "arm64",
+          signingStyle: "automatic"
+        },
+      )
+      slack(
+          message: "The application was successfully built",
+          success: true,
+          payload: {  # Optional, lets you specify any number of your own Slack attachments.
+            "Build Type" => "Ad Hoc"
+          },
+          default_payloads: [:test_result]
+      )
+      ixguard()
+      rescue => exception
+          slackbuilderror(exception)
+      end
+  end
+  # End Of Build IPA AdHoc
+
+  
+  # Start Build IPA AppStore
+  # Build IPA
+  lane :buildipaappstore do
+    remove()
+    appstore()
+    # upload_to_testflight
+    uploadtofirebaseappdistribution()
+    appknox()
+  end
+
+  # AppStore
+  def appstore
+    begin
+      increment_build_number
+      build_app(
+        scheme: "RMLDEMO",
+        clean: true,
+        include_bitcode: false,
+        toolchain: "com.guardsquare.ixguard",
+        configuration: "Release",
+        export_method: "app-store",
+        export_options: {
+          signingStyle: "automatic",
+          method: "app-store",
+          compileBitcode: false,
+          architecture: "arm64",
+        }
+      )
+      slack(
+          message: "The application was successfully built",
+          success: true,
+          payload: {  # Optional, lets you specify any number of your own Slack attachments.
+            "Build Type" => "App Store"
+          },
+          default_payloads: [:test_result]
+      )
+      ixguard()
+      rescue => exception
+        slackbuilderror(exception)
+      end
+  end
+  # End Of Build IPA AppStore
+
+
+  # Start Build IPA Development
+  # Build IPA
+  lane :build_dev do
+    remove()
+    development()
+    #uploadtofirebaseappdistribution()
+    #appknox()
+  end
+
+  # Development
+  def development
+    begin
+      increment_build_number
+      build_app(
+        scheme: "ECommerceApp",
+        clean: true,
+        include_bitcode: false,
+        toolchain: "com.guardsquare.ixguard",
+        configuration: "Release",
+        export_method: "development",
+        export_options: {
+          method: "development",
+          compileBitcode: false,
+          architecture: "arm64",
+        }
+      )
+      slack(
+          message: "The application was successfully built",
+          success: true,
+          payload: {  # Optional, lets you specify any number of your own Slack attachments.
+            "Build Type" => "Development"
+          },
+          default_payloads: [:test_result]
+      )
+      ixguard()
+      end
+  end
+  # End Of Build IPA AdHoc
+
+
+  # IxGuard
+  lane :ixguard do
+    begin
+      sh("ixguard -config=/Users/rmltech/Documents/ProjectIOS/E-CommerceApp/fastlane/ig-config.yml -o=/Users/rmltech/Documents/ProjectIOS/E-CommerceApp/fastlane/RMLDemoProtected.ipa /Users/rmltech/Documents/ProjectIOS/E-CommerceApp/ECommerceApp.ipa")
+  end
+end
+ lane :remove do
+    sh("rm /Users/rmltech/Documents/ProjectIOS/E-CommerceApp/fastlane/RMLDemoProtected.ipa") 
+ end
+end
+
+
+
+
